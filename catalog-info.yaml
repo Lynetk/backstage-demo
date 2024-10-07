@@ -4,7 +4,7 @@ metadata:
   name: kn-demo-1
   description: An example of a Backstage application.
   annotations:
-    argocd/app-name: argocd
+    argocd/app-name: ingress-nginx-public
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
@@ -14,6 +14,6 @@ metadata:
   #   github.com/project-slug: backstage/backstage
   #   backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
+  type: Loadbalancer
   owner: kasper.kn.nielsen@jppol.dk
   lifecycle: production
