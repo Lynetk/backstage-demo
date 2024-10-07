@@ -9,10 +9,6 @@ metadata:
     - url: https://argocd.jppol.click
       title: ArgoCD
       icon: dashboard
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
 spec:
   type: Loadbalancer
   owner: kasper.kn.nielsen@jppol.dk
