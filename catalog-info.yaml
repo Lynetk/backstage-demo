@@ -4,7 +4,7 @@ metadata:
   name: kn-demo-1
   description: An example of a Backstage application.
   annotations:
-    argocd/app-name: grafana
+    argocd/app-name: grafana homepage
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
