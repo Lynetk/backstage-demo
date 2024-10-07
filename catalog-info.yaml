@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: kn-demo-1
-  description: An example of a Backstage application.
+  name: ingress-nginx-public
+  description: Internet facing loadbalancer
   annotations:
     argocd/app-name: ingress-nginx-public
+    grafana/dashboard-selector: "NGINX Ingress controller"
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
