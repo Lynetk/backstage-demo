@@ -5,7 +5,7 @@ metadata:
   description: Internet facing loadbalancer
   annotations:
     argocd/app-name: ingress-nginx-public
-    grafana/overview-dashboard: 'https://grafana.jppol.click/d/nginx/nginx-ingress-controller?orgId=1&refresh=5s'
+    grafana/overview-dashboard: 'http://grafana.jppol.click:3000/goto/Hw7n7PzHR?orgId=1'
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
