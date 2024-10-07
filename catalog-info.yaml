@@ -13,6 +13,6 @@ metadata:
       title: ArgoCD
       icon: dashboard
 spec:
-  type: Loadbalancer
+  type: Ingress-controller
   owner: kasper.kn.nielsen@jppol.dk
   lifecycle: production
