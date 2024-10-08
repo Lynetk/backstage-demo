@@ -8,7 +8,7 @@ metadata:
     grafana/overview-dashboard: 'https://grafana.jppol.click/goto/Hw7n7PzHR?orgId=1'
     grafana/dashboard-selector: nginx
     #prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
-    prometheus.io/rule: sum(irate(nginx_ingress_controller_requests[2m])) by (ingress)
+    prometheus.io/rule: 'sum(irate(nginx_ingress_controller_requests[2m])) by (ingress)'
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
