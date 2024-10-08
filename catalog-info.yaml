@@ -7,7 +7,7 @@ metadata:
     argocd/app-name: ingress-nginx-public
     grafana/overview-dashboard: "https://grafana.jppol.click/goto/Hw7n7PzHR?orgId=1"
     grafana/dashboard-selector: nginx
-    prometheus.io/rule: sum by (ingress) (nginx_ingress_controller_requests{ingress="allans-fashion-blog-ingress"})
+    prometheus.io/rule: sum by (ingress) (nginx_ingress_controller_requests{ingress!=""})
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
