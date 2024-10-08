@@ -14,5 +14,5 @@ metadata:
       icon: dashboard
 spec:
   type: service
-  owner: kasper.kn.nielsen@jppol.dk
+  owner: guests
   lifecycle: production
