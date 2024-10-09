@@ -12,6 +12,9 @@ metadata:
     - url: https://argocd.jppol.click
       title: ArgoCD
       icon: dashboard
+    - url: https://grafana.jppol.click/goto/JCdVqlzHg?orgId=1
+      title: Grafana loki Access log explorer
+      icon: grafana
 spec:
   type: service
   owner: guests
