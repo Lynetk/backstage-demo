@@ -7,6 +7,7 @@ metadata:
     argocd/app-name: ingress-nginx-public
     grafana/overview-dashboard: "https://grafana.jppol.click/goto/Hw7n7PzHR?orgId=1"
     grafana/dashboard-selector: nginx
+    backstage.io/kubernetes-id: ingress-nginx-public
     backstage.io/kubernetes-namespace: ingress-nginx-public
     prometheus.io/rule: sum by (ingress) (nginx_ingress_controller_requests{ingress!=""}), nginx_ingress_controller_nginx_process_resident_memory_bytes
   links:
