@@ -10,7 +10,7 @@ metadata:
     backstage.io/kubernetes-namespace: ingress-nginx
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/component=controller"
     prometheus.io/rule: sum by (ingress) (nginx_ingress_controller_requests{ingress!=""}), nginx_ingress_controller_nginx_process_resident_memory_bytes
-    backstage.io/kubernetes-id: homepage
+    kubecost.com/deployment-name: homepage
   links:
     - url: https://argocd.jppol.click
       title: ArgoCD
