@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Lynetk
+spec:
+  memberOf: [idp-admins]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: idp-admins
+spec:
+  type: team
+  children: []
