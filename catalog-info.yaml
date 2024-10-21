@@ -20,5 +20,5 @@ metadata:
       icon: grafana
 spec:
   type: service
-  owner: Lynetk
+  owner: backstage-idp-admins
   lifecycle: production
