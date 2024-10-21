@@ -20,5 +20,5 @@ metadata:
       icon: grafana
 spec:
   type: service
-  owner: guests
+  owner: idp-admins/Lynetk
   lifecycle: production
