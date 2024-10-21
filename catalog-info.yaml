@@ -20,5 +20,5 @@ metadata:
       icon: grafana
 spec:
   type: service
-  owner: Kasper Nielsen
+  owner: Lynetk
   lifecycle: production
